@@ -23,7 +23,7 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 
 - **Akıllı ev:** Kendi Home Assistant adresine gider.
 
-- **Güncelleme denetimi:** “Güncellemeleri denetle”ye dokunduğunda GitHub’a (api.github.com) tek bir istek gider.
+- **Güncelleme denetimi:** “Güncellemeleri denetle”ye dokunduğunda GitHub’a (api.github.com) tek bir istek gider. İstersen Ayarlar’dan açılışta denetimi açabilirsin (varsayılan kapalı, günde en fazla bir kez).
 
 - **Sorun bildir, Telegram, Instagram, Destek ol:** Yalnızca sen dokunduğunda ilgili sayfayı tarayıcında açar. Uygulama bu sayfalara veri göndermez. “Sorun bildir” GitHub’da, sürüm numarası, Android sürümü, cihaz modeli ve son hata mesajıyla önceden doldurulmuş bir form açar; göndermeden önce düzenleyebilirsin. Sohbetin eklenmez.
 
@@ -40,6 +40,10 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 - **Uygulama kilidi (isteğe bağlı):** Telefonun ekran kilidini (PIN, desen, parmak izi) kullanır. Kimlik bilgilerin Crimson’a verilmez.
 
 - **Alarm, bildirim, ayarlar, ön plan servisi:** Alarm, hatırlatıcı, rutin, widget ve parlaklık ayarı için.
+
+### Web sitesi
+
+crimson-hroc.onrender.com Render üzerinde barındırılır; barındırıcı olağan sunucu kayıtlarını (IP adresi, tarayıcı bilgisi) tutabilir. Site çerez kullanmaz ve analiz aracı içermez. Sürüm bilgisini göstermek için tarayıcın GitHub’ın herkese açık API’sine istek gönderir. Dil tercihin yalnızca tarayıcında saklanır.
 
 ### Çocuklar
 
@@ -74,13 +78,17 @@ Chat history, notes, memory, routines, settings and the API keys you enter are s
 
 - **Smart home:** Requests go to your own Home Assistant address.
 
-- **Update check:** Tapping “Check for updates” sends one request to GitHub (api.github.com).
+- **Update check:** Tapping “Check for updates” sends one request to GitHub (api.github.com). You can optionally turn on a launch-time check in Settings (off by default, at most once a day).
 
 - **Report a problem, Telegram, Instagram, Support:** They only open the related page in your browser when you tap them; the app sends no data to those pages. “Report a problem” opens a GitHub form pre-filled with the app version, Android version, device model and last error message, which you can edit before sending. Your chat is not included.
 
 ### Permissions
 
 Microphone (voice, wake word); Contacts and Calendar (only when you ask); Notification access and Accessibility service (both optional; with Accessibility on, on-screen text may be sent to your AI provider; the app never types passwords, card numbers or verification codes and asks before irreversible actions); App lock (optional, uses your phone’s screen lock); alarms, notifications, settings, widget and foreground service for alarms, reminders and routines.
+
+### Website
+
+crimson-hroc.onrender.com is hosted on Render, which may keep standard server logs (IP address, browser details). The site uses no cookies and no analytics. To show release information your browser calls GitHub’s public API. Your language choice is stored only in your browser.
 
 ### Children
 

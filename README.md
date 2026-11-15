@@ -4,7 +4,7 @@
 
 Ücretsiz, reklamsız, sesli yapay zekâ asistanı (Android). / A free, ad-free voice AI assistant for Android.
 
-**Site / Website:** https://crimson-hroc.onrender.com
+**Site / Website:** https://crimson-hroc.onrender.com (indirme, SSS, sürümler, SHA-256 ve imza doğrulama)
 **İndir / Download:** [Releases](https://github.com/ekipbul-web/Crimson-App/releases/latest)
 
 ## Özellikler / Features
@@ -13,7 +13,8 @@
 - Fotoğraf, PDF ve ses analizi
 - İsteğe bağlı telefon kontrolü (erişilebilirlik hizmeti)
 - Home Assistant ile akıllı ev
-- Ana ekran widget'ı, tema rengi, uygulama kilidi, yedekleme
+- Birden fazla sohbet, biçimli yanıtlar, mesaj menüsü (kopyala, paylaş, düzenle)
+- Ana ekran widget'ı, simge kısayolları, tema rengi, yazı boyutu, uygulama kilidi, yedekleme
 - Kendi API anahtarınla çalışır: Google Gemini, OpenAI, Anthropic, Groq, OpenRouter
 
 ## Kurulum / Install
