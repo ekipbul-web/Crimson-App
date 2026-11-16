@@ -13,11 +13,15 @@
 - Fotoğraf, PDF ve ses analizi
 - İsteğe bağlı telefon kontrolü (erişilebilirlik hizmeti)
 - Home Assistant ile akıllı ev
-- Birden fazla sohbet, biçimli yanıtlar, mesaj menüsü (kopyala, paylaş, düzenle)
-- Ana ekran widget'ı, simge kısayolları, tema rengi, yazı boyutu, uygulama kilidi, yedekleme
+- Birden fazla sohbet (sabitleme, sohbet başına talimat, tüm sohbetlerde arama, Markdown dışa aktarma)
+- Pano asistanı: kopyaladığın metni özetle, çevir, düzelt
+- Biçimli yanıtlar, mesaj menüsü (kopyala, paylaş, düzenle)
+- Ana ekran widget'ı, simge kısayolları, açık/koyu tema, tema rengi, yazı boyutu, uygulama kilidi, yedekleme, kayıtlı komutlar
 - Kendi API anahtarınla çalışır: Google Gemini, OpenAI, Anthropic, Groq, OpenRouter
 
 ## Kurulum / Install
+Otomatik güncelleme için: [Obtainium'a ekle](obtainium://add/https://github.com/ekipbul-web/Crimson-App)
+
 1. [Releases](https://github.com/ekipbul-web/Crimson-App/releases/latest) sayfasından APK'yı indir ve kur.
 2. Uygulama ilk açılışta ücretsiz bir Google Gemini anahtarı almanı adım adım anlatır.
 

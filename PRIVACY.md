@@ -21,6 +21,8 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 
 - **“Hey Crimson” modeli:** Açtığında bir kez alphacephei.com’dan indirilir, sonrasında dinleme cihazda ve çevrimdışı yapılır. Ses kaydı gönderilmez.
 
+- **Pano asistanı:** Yalnızca sen seçtiğinde panodaki metni okur ve yapay zekâ sağlayıcına gönderir.
+
 - **Akıllı ev:** Kendi Home Assistant adresine gider.
 
 - **Güncelleme denetimi:** “Güncellemeleri denetle”ye dokunduğunda GitHub’a (api.github.com) tek bir istek gider. İstersen Ayarlar’dan açılışta denetimi açabilirsin (varsayılan kapalı, günde en fazla bir kez).
@@ -43,7 +45,11 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 
 ### Web sitesi
 
-crimson-hroc.onrender.com Render üzerinde barındırılır; barındırıcı olağan sunucu kayıtlarını (IP adresi, tarayıcı bilgisi) tutabilir. Site çerez kullanmaz ve analiz aracı içermez. Sürüm bilgisini göstermek için tarayıcın GitHub’ın herkese açık API’sine istek gönderir. Dil tercihin yalnızca tarayıcında saklanır.
+crimson-hroc.onrender.com Render üzerinde barındırılır; barındırıcı olağan sunucu kayıtlarını (IP adresi, tarayıcı bilgisi) tutabilir. Site çerez kullanmaz ve analiz aracı içermez. Sürüm bilgisini göstermek için tarayıcın GitHub’ın herkese açık API’sine istek gönderir. Dil ve tema tercihin yalnızca tarayıcında saklanır.
+
+### Güncelleme ve indirme sayacı
+
+Sitedeki sürüm notları ve indirme sayısı, tarayıcının GitHub’ın herkese açık API’sinden okuduğu bilgiye dayanır. Ziyaretçi takibi yapılmaz.
 
 ### Çocuklar
 
@@ -76,6 +82,8 @@ Chat history, notes, memory, routines, settings and the API keys you enter are s
 
 - **“Hey Crimson” model:** Downloaded once from alphacephei.com; listening then runs offline on the device. No audio is uploaded.
 
+- **Clipboard assistant:** Reads the clipboard only when you choose it and sends that text to your AI provider.
+
 - **Smart home:** Requests go to your own Home Assistant address.
 
 - **Update check:** Tapping “Check for updates” sends one request to GitHub (api.github.com). You can optionally turn on a launch-time check in Settings (off by default, at most once a day).
@@ -88,7 +96,11 @@ Microphone (voice, wake word); Contacts and Calendar (only when you ask); Notifi
 
 ### Website
 
-crimson-hroc.onrender.com is hosted on Render, which may keep standard server logs (IP address, browser details). The site uses no cookies and no analytics. To show release information your browser calls GitHub’s public API. Your language choice is stored only in your browser.
+crimson-hroc.onrender.com is hosted on Render, which may keep standard server logs (IP address, browser details). The site uses no cookies and no analytics. To show release information your browser calls GitHub’s public API. Your language and theme choices are stored only in your browser.
+
+### Release info and download counter
+
+Release notes and download counts on the site come from information your browser reads from GitHub’s public API. Visitors are not tracked.
 
 ### Children
 
