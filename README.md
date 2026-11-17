@@ -15,6 +15,7 @@
 - Home Assistant ile akıllı ev
 - Birden fazla sohbet (sabitleme, sohbet başına talimat, tüm sohbetlerde arama, Markdown dışa aktarma)
 - Pano asistanı: kopyaladığın metni özetle, çevir, düzelt
+- Keşfet (hazır istekler), favoriler, PDF dışa aktarma, bildirim özeti
 - Biçimli yanıtlar, mesaj menüsü (kopyala, paylaş, düzenle)
 - Ana ekran widget'ı, simge kısayolları, açık/koyu tema, tema rengi, yazı boyutu, uygulama kilidi, yedekleme, kayıtlı komutlar
 - Kendi API anahtarınla çalışır: Google Gemini, OpenAI, Anthropic, Groq, OpenRouter

@@ -21,7 +21,7 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 
 - **“Hey Crimson” modeli:** Açtığında bir kez alphacephei.com’dan indirilir, sonrasında dinleme cihazda ve çevrimdışı yapılır. Ses kaydı gönderilmez.
 
-- **Pano asistanı:** Yalnızca sen seçtiğinde panodaki metni okur ve yapay zekâ sağlayıcına gönderir.
+- **Pano asistanı ve bildirim özeti:** Yalnızca sen seçtiğinde panodaki metni ya da bildirim metinlerini okur ve yapay zekâ sağlayıcına gönderir.
 
 - **Akıllı ev:** Kendi Home Assistant adresine gider.
 
@@ -82,7 +82,7 @@ Chat history, notes, memory, routines, settings and the API keys you enter are s
 
 - **“Hey Crimson” model:** Downloaded once from alphacephei.com; listening then runs offline on the device. No audio is uploaded.
 
-- **Clipboard assistant:** Reads the clipboard only when you choose it and sends that text to your AI provider.
+- **Clipboard assistant and notification summary:** Read the clipboard or notification text only when you choose them and send it to your AI provider.
 
 - **Smart home:** Requests go to your own Home Assistant address.
 
