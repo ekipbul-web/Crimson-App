@@ -23,6 +23,8 @@ Crimson, işlevlerini yerine getirmek için senin seçtiğin hizmetlere istek g�
 
 - **Pano asistanı ve bildirim özeti:** Yalnızca sen seçtiğinde panodaki metni ya da bildirim metinlerini okur ve yapay zekâ sağlayıcına gönderir.
 
+- **Çevrimdışı ses paketi (isteğe bağlı):** Yalnızca sen istersen alphacephei.com’dan indirilir (yaklaşık 35 MB). Tanıma cihazda yapılır, ses gönderilmez.
+
 - **Akıllı ev:** Kendi Home Assistant adresine gider.
 
 - **Güncelleme denetimi:** “Güncellemeleri denetle”ye dokunduğunda GitHub’a (api.github.com) tek bir istek gider. İstersen Ayarlar’dan açılışta denetimi açabilirsin (varsayılan kapalı, günde en fazla bir kez).
@@ -83,6 +85,8 @@ Chat history, notes, memory, routines, settings and the API keys you enter are s
 - **“Hey Crimson” model:** Downloaded once from alphacephei.com; listening then runs offline on the device. No audio is uploaded.
 
 - **Clipboard assistant and notification summary:** Read the clipboard or notification text only when you choose them and send it to your AI provider.
+
+- **Offline voice pack (optional):** Downloaded from alphacephei.com only if you ask for it (about 35 MB). Recognition runs on the device and no audio is sent.
 
 - **Smart home:** Requests go to your own Home Assistant address.
 
